@@ -359,7 +359,7 @@ header .hero h1
 
 
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
     .navigasi .box-navigasi .box:nth-child(1) h1
     {
         font-size: 40px;
@@ -670,7 +670,7 @@ header .hero h1
 
 
 /*Batas*/
-@media  screen and (max-width: 995px)
+@media  screen and (max-width: 1000px)
 {
     
     .about .box-about .box:nth-child(1) .text-content h1
