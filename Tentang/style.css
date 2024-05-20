@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Architects Daughter", sans-serif;
+}
+.topimage .box-image .box 
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.171),rgba(0, 0, 0, 0.322)) ,url('../source/image/1328139.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    border-radius: 0 0 45px 45px;
+    box-shadow: 0 0 20px;
+}
+.topimage .box-image .box h1
+{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 37%;
+    top: 65%;
+}
+
+
+
+/*Perkenalan*/
+.txtperk .container {
+    border-radius: 40px;
+  color: #EEF5FF;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  background-color: #176B87 ;
+}
+.txtperk .box
+{
+  position: absolute;
+  left: 37%;
+  margin-top: 60px;
+}
+.txtperk .box-text .text
+{
+  width: 50%;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 25%;
+}
+.txtperk .box-text .text p
+{
+  color: #CDF5FD;
+  font-size: 30px;
+}
+.txtperk .box-text .text button
+{
+  margin-top: 100px;
+  border-radius: 20px;
+  border: none;
+  font-size: large;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+.txtperk .box-text .text button a
+{
+  color: black;
+}
+.txtperk .box-text .text button:hover
+{
+  color: #DDF5F7;
+  background-color: #3B577D;
+  transition: ease 500ms;
+}
+.txtperk .box-text .text button a:hover
+{
+  color: #DDF5F7;
+  transition: ease 500ms;
+}
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#19b4e4;
+}
+.second div {
+  background-color:#7315ca;
+}
+.third div {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+/*Perkenalan*/
+
+@media screen and (max-width: 1366px){
+  .txtperk .box
+  {
+    position: absolute;
+    left: 34%;
+  }
+  .txtperk .box-text .text
+  {
+    width: 50%;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 28%;
+  }
+  .txtperk .box-text .text p
+  {
+    color: #CDF5FD;
+    font-size: 25px;
+  }
+  .topimage .box-image .box h1
+  {
+    position: absolute;
+    left: 34%;
+    top: 65%;
+  }
+}
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+/*Perkenalan*/
+
+@media screen and (max-width: 1000px){
+  .txtperk .box
+  {
+    position: absolute;
+    left: 25%;
+  }
+  .txtperk .box-text .text
+  {
+    width: 50%;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 24%;
+  }
+  .txtperk .box-text .text p
+  {
+    color: #CDF5FD;
+    font-size: 25px;
+  }
+  .topimage .box-image .box h1
+  {
+    position: absolute;
+    left: 25%;
+    top: 65%;
+  }
+}
