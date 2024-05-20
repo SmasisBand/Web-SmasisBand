@@ -373,9 +373,13 @@ header .hero h1
 {
     width: 100%;
     height: 100vh;
+    background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: linear-gradient(#133a5563,#15196542) ,url('source/image/wallpaperflare.com_wallpaper.jpg');
     border-radius: 0 0 25px 25px;
+    back
 
 
 
